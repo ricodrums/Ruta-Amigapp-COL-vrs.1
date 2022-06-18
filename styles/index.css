@@ -7,6 +7,7 @@ hr {
 	color: rgb(27, 83, 72);
 	border-top: 2px solid rgb(27, 83, 72);
 	border-bottom: none;
+	width: 50%;
 }
 
 .container-header {
@@ -61,11 +62,7 @@ hr {
 }
 
 .maps {
-	display: flex;
-	text-align: - center;
-	flex-direction: column;
-	height: 75vh;
-	width: auto;
+	height: 95vh;
 	background-image: url(../assets/img/mapa\ sena.jpeg);
 	filter: blur(2px);
 	background-repeat: no-repeat;
@@ -120,13 +117,52 @@ hr {
 
 }
 
-.section_content {
-	width: 60%;
+.about-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	width: 100%;
+	height: 80vh;
+	display: flex;
 }
 
-.sub-title {
+.section_content {
+	width: 50%;
+	padding: 5rem;
+}
+
+.section-img {
+	padding: 2rem;
+	width: 30%;
+}
+
+img {
+	width: 25rem;
+	height: 25rem;
+	border-radius: 5px;
+	object-fit: cover;
+}
+
+.benefit-section {
+	background-color: rgb(38, 115, 101);
+	color: rgb(204, 204, 204);
+	text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+}
+
+.title {
 	font-size: 2.7em;
 	padding: 0.2em;
+	margin-bottom: 2rem;
+}
+
+sub-title {
+	font-size: 1.5em;
+	padding: 0.2em;
+	margin-bottom: 200rem;
 }
 
 .sub-title-orange {
@@ -136,26 +172,6 @@ hr {
 .paragraph {
 	font-size: 1.25em;
 	padding: 0.5em;
-	width: 90%;
-	color: #3C4858;
-}
-
-.icon {
-	display: flex;
-	align-items: center;
-}
-
-.icon img {
-	width: 10.2em;
-	object-fit: cover;
-}
-
-.multi-card {
-	background-color: rgb(38, 115, 101);
-	color: rgb(241, 237, 237);
-	text-align: center;
-	padding-top: 1.5em;
-	padding-bottom: 1.5em;
 }
 
 .container-cards {
@@ -169,13 +185,11 @@ hr {
 
 .card {
 	background-color: rgba(60, 72, 88, 0.40);
-	color: #3C4858;
 	padding: 50px 0px;
 	border-radius: 1em;
 	width: 20%;
 	padding: 1.5em;
 }
-
 
 .ul-index {
 	list-style: none;
@@ -185,20 +199,17 @@ hr {
 	font-size: 1.25em;
 }
 
-
-
 .container {
 	max-width: 1400px;
 	margin: auto;
 }
-
 
 #Nuestros-beneficios .container {
 	padding: 150px 12px;
 }
 
 #Nuestros-beneficios h2 {
-	margin-top: 0;
+	margin-bottom: 2rem;
 	font-size: 3.2em;
 }
 
@@ -216,10 +227,6 @@ hr {
 	flex-direction: column;
 	justify-content: center;
 
-}
-
-#SomosRuta-Amigaap h2 {
-	margin: 0px;
 }
 
 #SomosRuta-Amigaap .img-container {
